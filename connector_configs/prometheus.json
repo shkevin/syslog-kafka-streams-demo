@@ -1,0 +1,15 @@
+{
+    "name": "prometheus-metrics-sink",
+    "config": {
+        "connector.class": "io.confluent.connect.prometheus.PrometheusSinkConnector",
+        "tasks.max": "1",
+        "topics": "severity-counts-topic",
+        "prometheus.listener.port": "9090",
+        "prometheus.metric.name": "kafka_topic_severity_count",
+        "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+        "value.converter.schemas.enable": "false",
+        "transforms": "CreateMetrics",
+        "transforms.CreateMetrics.type": "org.apache.kafka.connect.transforms.ValueToKey",
+        "transforms.CreateMetrics.fields": "severity"
+    }
+}

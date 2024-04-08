@@ -1,0 +1,22 @@
+{
+  "namespace": "io.confluent.kafka.streams.schemas",
+  "type": "record",
+  "name": "SeverityCount",
+  "fields": [
+    {
+      "name": "low",
+      "type": "long",
+      "doc": "Count of low severity messages"
+    },
+    {
+      "name": "medium",
+      "type": "long",
+      "doc": "Count of medium severity messages"
+    },
+    {
+      "name": "high",
+      "type": "long",
+      "doc": "Count of high severity messages"
+    }
+  ]
+}

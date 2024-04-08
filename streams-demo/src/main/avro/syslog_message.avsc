@@ -1,0 +1,64 @@
+{
+  "fields": [
+    {
+      "doc": "The time the event occurred, in milliseconds since epoch",
+      "name": "timestamp",
+      "type": "long"
+    },
+    {
+      "doc": "The hostname or IP address of the source of the event",
+      "name": "host",
+      "type": {
+        "avro.java.string": "String",
+        "type": "string"
+      }
+    },
+    {
+      "name": "severity",
+      "type": {
+        "doc": "The severity level of the event",
+        "name": "Severity",
+        "symbols": [
+          "EMERG",
+          "ALERT",
+          "CRIT",
+          "ERR",
+          "WARNING",
+          "NOTICE",
+          "INFO",
+          "DEBUG"
+        ],
+        "type": "enum"
+      }
+    },
+    {
+      "doc": "The content of the syslog message",
+      "name": "message",
+      "type": {
+        "avro.java.string": "String",
+        "type": "string"
+      }
+    },
+    {
+      "default": "unknown",
+      "doc": "The facility code indicating the source of the message",
+      "name": "facility",
+      "type": {
+        "avro.java.string": "String",
+        "type": "string"
+      }
+    },
+    {
+      "default": "unknown",
+      "doc": "A unique identifier for the event, if applicable",
+      "name": "eventId",
+      "type": {
+        "avro.java.string": "String",
+        "type": "string"
+      }
+    }
+  ],
+  "name": "SyslogMessage",
+  "namespace": "io.confluent.kafka.streams.schemas",
+  "type": "record"
+}

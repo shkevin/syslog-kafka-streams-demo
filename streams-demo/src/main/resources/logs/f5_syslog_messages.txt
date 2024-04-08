@@ -1,0 +1,50 @@
+Connection error on virtual server VS1.
+User admin logged in from 192.168.1.100.
+Configuration change detected: updated virtual server settings.
+SSL handshake failed for client 10.0.0.4.
+Node 10.0.0.5 is marked down due to health monitor failure.
+Traffic rate limit exceeded on virtual server VS2.
+Pool member 10.0.0.6:80 has been disabled.
+System is undergoing failover to secondary unit.
+User admin logged out.
+HTTP request error from IP 10.0.0.7: URI length exceeded.
+TCP connection reset by client 192.168.1.101.
+iRule executed on virtual server VS3: redirecting traffic.
+DDoS attack detected: SYN flood from 203.0.113.5.
+LTM policy applied: blocking access from 198.51.100.24.
+SSL certificate for virtual server VS4 is nearing expiration.
+GTM pool member changed: data center DC1 is now preferred.
+AFM event: port scan detected from 192.0.2.12.
+APM access policy updated: added new SAML provider.
+ASM alert: XSS attack detected on virtual server VS5.
+Virtual server VS6 is unavailable: no pool members are healthy.
+Backup completed: configuration saved to /var/local/ucs.
+License expiration warning: 30 days remaining.
+SNAT pool depletion warning for pool SNAT_Pool1.
+High CPU usage detected on management interface.
+Memory usage exceeds threshold: 90% used.
+Disk usage warning: /var partition is 85% full.
+New software version available: upgrading to version 14.1.2.3.
+VLAN error detected: VLAN100 is not forwarding traffic.
+Route domain conflict: overlapping IP ranges in RD10 and RD20.
+ARP table full: unable to add new entries.
+Interface 1.1 link down.
+TMM restart detected: investigating possible memory leak.
+QoS event: traffic prioritization adjustments in effect.
+Mirroring disabled on virtual server VS7 due to error.
+iCall script execution failure: script /Common/script1.
+BOT defense alert: CAPTCHA triggered for client 192.168.1.102.
+RADIUS authentication failure: server 10.0.0.8 unreachable.
+OCSP responder error: SSL certificate verification failed for VS8.
+HA status change: device is now active after standby.
+IP Intelligence report: blacklisted IP 203.0.113.6 blocked.
+SSL VPN session established for user vpnuser1.
+Dynamic routing update: BGP peering established with 192.168.1.103.
+Virtual address status change: VA1 is now disabled.
+Cluster synchronization error: manual intervention required.
+Software installation failed: checksum error detected.
+WAF violation: SQL injection attempt logged on VS9.
+Session persistence updated: cookie method enabled on VS10.
+Firmware downgrade initiated: rolling back to version 13.1.0.5.
+CRITICAL: Device temperature exceeds operational limits.
+WARNING: Power supply PS1 is offline.
